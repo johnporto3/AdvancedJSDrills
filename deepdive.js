@@ -56,16 +56,31 @@
 
 let fruits = ['banana', 'orange', 'pineapple'];
 
-function printFruits() {
-    let favFruit = fruits[2];
-    console.log(fruits[0]);
+//function printFruits() {
+//    let favFruit = fruits[2];
+//    console.log(fruits[0]);
 
-    function printFavFruit() {
-        console.log(favFruit);
-    }
+//    function printFavFruit() {
+//        console.log(favFruit);
+//    }
+//}
+
+//printFruits();
+
+
+//21
+//sayHello();
+
+//function sayHello() {
+//    console.log("Hello John");
+//};
+
+//22
+
+
+John();
+
+let John = function (hello) {
+    return ("Hello John!");
 }
-
-
-
-printFruits();
 
