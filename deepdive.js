@@ -22,18 +22,50 @@
 
 //1 - 9
 
-let fruits = ['apple', 'tomato', 'banana'];
-let favFruit;
+//let fruits = ['banana', 'orange', 'pineapple'];
+//let favFruit;
+//function printFruits() {
+//    favFruit = fruits[2];
+//    console.log(fruits[0]);
+//}
+//
+//function printFavFruit() {
+//   console.log(favFruit);
+//}
+//
+//printFruits();
+//printFavFruit();
+
+//10 printFavFruit was able to log favFruit because of the let favFruit in the global section. Functions are able to look out.
+
+
+//13 result
+//let fruits = ['banana', 'orange', 'pineapple'];
+
+//function printFruits() {
+//    let favFruit = fruits[2];
+//    console.log(fruits[0]);
+//}
+
+//function printFavFruit() {
+//    console.log(favFruit);
+//}
+
+//printFruits();
+//printFavFruit();
+
+let fruits = ['banana', 'orange', 'pineapple'];
+
 function printFruits() {
-    favFruit = fruits[2];
+    let favFruit = fruits[2];
     console.log(fruits[0]);
+
+    function printFavFruit() {
+        console.log(favFruit);
+    }
 }
 
-function printFavFruit() {
-    console.log(favFruit);
-}
+
 
 printFruits();
-printFavFruit();
 
-//10 printFavFruit was able to log favFruit because of the let favFruit in the global section.
