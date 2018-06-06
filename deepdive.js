@@ -54,7 +54,7 @@
 //printFruits();
 //printFavFruit();
 
-let fruits = ['banana', 'orange', 'pineapple'];
+//let fruits = ['banana', 'orange', 'pineapple'];
 
 //function printFruits() {
 //    let favFruit = fruits[2];
@@ -76,11 +76,18 @@ let fruits = ['banana', 'orange', 'pineapple'];
 //};
 
 //22
+//function status(){
+//    alert("Everything is a ok!");
+//}
+//console.log (status);
 
+//23  
 
-John();
-
-let John = function (hello) {
-    return ("Hello John!");
-}
-
+var age = 18;
+    function age(){
+        if (age < 21)
+            alert ("too young to enter");
+        else {
+            alert ("welcome!");
+        }
+    }
